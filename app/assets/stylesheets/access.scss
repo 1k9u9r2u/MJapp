@@ -1,0 +1,17 @@
+.access{
+  //background: radial-gradient(black, transparent);
+  height: 1000px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.6rem;
+  
+  .access_content{
+    height: 400px;
+    width: 800px;
+    position: absolute;
+    bottom: 5px
+    
+  }
+}

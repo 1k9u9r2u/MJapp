@@ -1,0 +1,66 @@
+.wrapper{
+  height: 1000px;
+  display: flex;
+  background: linear-gradient(135deg, rgba(255, 221, 40, 0.8), rgba(255, 110, 80, 0.8) ) fixed,url(http://beginners-high.com/sample/3700img-bg-sample.jpg);
+  background-size: cover;
+  .wrapper_content{
+  
+    height: 700px;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    
+    .ststem{
+      font-size: 3.6rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .content_box{
+      height: 400px;
+      width: 1000px;
+    
+
+      .box1{
+        height: 350px;
+        width: 490px;
+      
+        float: right;
+        .box1_content{
+          background: #dddd;
+          height: 80px;
+          padding: 25px;
+          font-weight: bold;
+        }
+        .box_title {
+          height: 270px;
+          width: 490px;
+         
+          padding: 30px;
+          font-weight: bold;
+        }
+
+      }
+
+      .box2{
+        height: 350px;
+        width: 490px;
+       
+        .box_title_2{
+          height: 80px;
+          background: #dddd;
+          padding: 25px;
+          font-weight: bold;
+
+        }
+        .box2_content{
+          height: 270px;
+          width: 490px;
+        
+          padding: 30px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

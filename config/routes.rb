@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root to: 'posts#index'
+  get "content", to: "posts#content"
+  get "recruit", to: "posts#recruit"
+  get "system" , to: "posts#system"
+  get "access" , to: "posts#access"
 end
